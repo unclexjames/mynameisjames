@@ -12,14 +12,14 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
 setup(
   name = 'mynameisjames',      
   packages = ['mynameisjames'], 
-  version = '0.0.1', 
+  version = '0.0.2', 
   license='MIT', 
   description = 'who is james?',
   long_description=DESCRIPTION,
   author = 'james',                 
   author_email = '------@gmail.com',     
-  url = 'https://github.com/unclexjames/',  
-  download_url = 'https://github.com/unclexjames/',  
+  url = 'https://github.com/unclexjames/mynameisjames',  
+  download_url = 'https://github.com/unclexjames/mynameisjames',  
   keywords = ['James', 'ASCII ART'],
   classifiers=[
     'Development Status :: 3 - Alpha',     
